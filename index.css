@@ -1,0 +1,58 @@
+
+html{
+  font-size:12px;
+
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Yomogi', cursive;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.container{
+ 
+  max-width: 600px;
+  min-height: 400px;
+  background-color: rgb(243,243,243);
+  color:black;
+  margin:auto;
+  padding: 20px 40px;
+  transition: all 0.5s ease;
+ border-radius: 20px;
+ }
+
+
+.container>h4{
+ 
+font-size: 2rem;
+}
+.container>p{
+  font-size: 1.6rem;
+}
+.container>h6{
+  font-size: 1.4rem;
+  color:brown;
+  
+}
+
+.btn{
+  margin-top: 40px;
+  display:block;
+  width:120px ;
+  height:40px;
+  font-size: 1.6rem;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
